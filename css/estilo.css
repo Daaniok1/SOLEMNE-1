@@ -5,9 +5,11 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 70px; 
+    background-color: orange;
 }
 
+}
 .slide-image {
     width: 100%;
 }
