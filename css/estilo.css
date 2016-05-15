@@ -5,8 +5,8 @@
  */
 
 body {
-    padding-top: 70px; 
-    background-color: orange;
+   /* padding-top: 70px; */
+    background-color: peru;
 }
 
 }
@@ -51,6 +51,14 @@ body {
     color: #333;
 }
 
+h2{
+    text-align: center;
+}
+/*
+button a{
+    text-decoration: none;
+}
+*/
 footer {
     margin: 50px 0;
 }
