@@ -27,7 +27,12 @@
 <body>
     <!-- barra de búsqueda -->
     <header>
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+              <form class="navbar-header navbar-nav navbar-right">
+                <input type="text" class="form-control" placeholder="Buscar...">
+              </form>
+            </div> 
           <div class="container">
             <div class="navbar-header">
               <buttom type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -41,7 +46,7 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="Home.html">Home</a></li>
-                         <li><a href="Category.html">Categoria</a></li>
+                <li class="active"><a href="Category.html">Categoria</a></li>
                 <li><a href="Product.html">Productos</a></li>
               </ul>
               <form class="navbar-form navbar-right">
