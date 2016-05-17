@@ -2,7 +2,7 @@
 ## Descripción
 Maquetación de una página de compras.
 
-### Desarrollo Web
+### Desarrollo Web 
 
 ## Equipo de trabajo
 * Daniel Mansilla
