@@ -1,20 +1,17 @@
-/*!
- * Start Bootstrap - Shop Homepage HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+/*Estilos.css*/
 
 body {
-   /* padding-top: 70px; */
-   /* background-color: #1599FE;*/
+    /*padding-top: 50px;
+    background-color: #1599FE;*/
     background: rgba(255,175,75,1);
-background: -moz-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 61%, rgba(255,146,10,1) 84%, rgba(255,146,10,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,175,75,1)), color-stop(61%, rgba(255,146,10,1)), color-stop(84%, rgba(255,146,10,1)), color-stop(100%, rgba(255,146,10,1)));
-background: -webkit-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 61%, rgba(255,146,10,1) 84%, rgba(255,146,10,1) 100%);
-background: -o-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 61%, rgba(255,146,10,1) 84%, rgba(255,146,10,1) 100%);
-background: -ms-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 61%, rgba(255,146,10,1) 84%, rgba(255,146,10,1) 100%);
-background: linear-gradient(to bottom, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 61%, rgba(255,146,10,1) 84%, rgba(255,146,10,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=0 );
+    background: -moz-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 61%, rgba(255,146,10,1) 84%, rgba(255,146,10,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,175,75,1)), color-stop(61%, rgba(255,146,10,1)), color-stop(84%, rgba(255,146,10,1)), color-stop(100%, rgba(255,146,10,1)));
+    background: -webkit-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 61%, rgba(255,146,10,1) 84%, rgba(255,146,10,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 61%, rgba(255,146,10,1) 84%, rgba(255,146,10,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 61%, rgba(255,146,10,1) 84%, rgba(255,146,10,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 61%, rgba(255,146,10,1) 84%, rgba(255,146,10,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=0 );
+    background: url('../images/back.jpg')
 }
 
 header .form-group{
@@ -75,6 +72,17 @@ footer {
     margin: 50px 0;
 }
 
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
+#title-enroll .jumbotron{
+    background: url('../images/fondo.jpg');
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    color: white;
+}
 /*
 fuentes {
     
@@ -83,3 +91,7 @@ fuentes {
 }
 
 */
+
+#links{
+    font-family: 'gradient', cursive;
+}
