@@ -64,12 +64,13 @@ button a{
     text-decoration: none;
 }
 */
-footer {
-    margin: 20px;
-}
 
 h1, h2{
     font-family: 'Pacifico', cursive;
+}
+
+aside h4{
+    color:white;
 }
 
 #title-enroll .jumbotron{
@@ -99,8 +100,10 @@ fuentes {
 }
 
 footer{
-    background: red;
-    color: white;
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+    font-family: 'Pacifico', cursive;
+    font-size: 15pt;
     margin:20px 0 0 0;
     padding: 20px;
 }
