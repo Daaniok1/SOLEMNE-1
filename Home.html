@@ -55,11 +55,16 @@
 
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul id="links" class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="Home.html"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
+                        <li class="active"><a href="Home.html">Home <i class="fa fa-home" aria-hidden="true"></i></a></li>
                         <li><a href="Category.html">Categoria</a></li>
                         <li><a href="Product.html">Producto</a></li>
-                        <li><a href="" data-toggle="modal" data-target="#Login">Acceder</a></li>
-                        <li><a href="" data-toggle="modal" data-target="#Signup">Registrarse</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Carrito<span class="caret"></span></a> 
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="" data-toggle="modal" data-target="#Login">Acceder</a></li>
+                                <li><a href="" data-toggle="modal" data-target="#Signup">Registrarse</a></li>
+                            </ul>                
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -247,7 +252,7 @@
 
                 <div class="modal-header">
                     <a href="" class="btn btn-primary btn-block" role="buttom">
-                        <i class="fa fa-facebook">Inicia sesión con Facebook</i>
+                        <i class="fa fa-facebook"> Inicia sesión con Facebook</i>
                     </a>
                 </div>
 
@@ -284,7 +289,7 @@
 
                 <div class="modal-header">
                     <a href="" class="btn btn-primary btn-block" role="buttom">
-                        <i class="fa fa-facebook">Registrate con Facebook</i>
+                        <i class="fa fa-facebook"> Registrate con Facebook</i>
                     </a>
                 </div>
 
