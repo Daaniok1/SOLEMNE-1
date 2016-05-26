@@ -5,6 +5,6 @@ Maquetación de una página de compras.
 ### Desarrollo Web 
 
 ## Equipo de trabajo
-* Daniel Mansilla
-* Manuel Olmos
+* Daniel Mansilla as "Daaniok1"
+* Manuel Olmos	  as "Sleazexx"
 
