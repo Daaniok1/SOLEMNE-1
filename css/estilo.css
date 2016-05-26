@@ -1,8 +1,7 @@
 /*Estilos.css*/
 
 body {
-    /*padding-top: 50px;
-    background-color: #1599FE;*/
+    background-color: #1599FE;
     background: rgba(255,175,75,1);
     background: -moz-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 61%, rgba(255,146,10,1) 84%, rgba(255,146,10,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,175,75,1)), color-stop(61%, rgba(255,146,10,1)), color-stop(84%, rgba(255,146,10,1)), color-stop(100%, rgba(255,146,10,1)));
@@ -11,7 +10,7 @@ body {
     background: -ms-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 61%, rgba(255,146,10,1) 84%, rgba(255,146,10,1) 100%);
     background: linear-gradient(to bottom, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 61%, rgba(255,146,10,1) 84%, rgba(255,146,10,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=0 );
-    background: url('../images/back.jpg')
+    /*background: url('../images/back.jpg')*/
 }
 
 header .form-group{
@@ -80,16 +79,6 @@ div .boton{
     color: white;
 }
 
-
-/*
-fuentes {
-
-    font-family: 'Pacifico', cursive;
-    font-family: 'Graduate', cursive;
-}
-
-*/
-
 #links{
     font-family: 'gradient', cursive;
 }
@@ -105,4 +94,14 @@ footer{
     font-size: 15pt;
     margin:20px 0 0 0;
     padding: 20px;
+}
+
+#Sp{
+    padding-top: 70px;
+}
+
+ .valora {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #9E0B3B;
 }
